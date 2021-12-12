@@ -1,0 +1,18 @@
+/*****************************************
+ESTILOS DE CONTACTO
+*****************************************/
+
+.botonFormulario{
+    border-radius: 5px;
+    transition: background-image 2s;
+}
+
+.botonFormulario:hover{
+    background-image: linear-gradient(#fff84a, white);
+    color: black;
+}
+
+.formularioContacto{
+    width: 80%;
+    margin-left: 10%;
+}

@@ -1,0 +1,63 @@
+/*****************************************
+ESTILOS GENERALES
+*****************************************/
+
+.menuNuevo{
+    width: 100%;
+    padding-left: 10px;
+    z-index: 2;/*Para que esté por encima de los botones de desplazamiento del carrusel*/
+    margin-bottom: 15px;
+}
+
+.carrusel{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.linkWhatsapp{
+    width: 50px;
+    margin-left: 94%;
+}
+
+h1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/*FOOTER*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+.footer__div{
+    text-align: left;
+    display: inline;
+}
+.footer__label{
+    display: inline;
+    padding-right: 40%;
+    animation-duration: 4s;
+    animation-name: aparecerFooter;
+    transition: font-size 2s;
+}
+
+.redesFooter{
+    transition: all 2s;
+    width: 25px;
+    height: 25px;
+}
+.redesFooter:hover{
+    transform: skew(-10deg,-10deg);
+}
+@keyframes aparecerFooter {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,154 @@
+/*****************************************
+RESPONSIVE
+*****************************************/
+
+/*GRIDS PARA RESPONSIVE*/
+
+header {
+    grid-area: encabezado;
+}
+#contenido {
+    grid-area: contenido;
+}
+footer {
+    grid-area: pie;
+}
+
+/* MEDIA QUERIES */
+
+/* SMARTPHONE */
+@media (max-width: 599px){
+    .bodyGrid {
+        display: grid;
+        grid-template-areas: 
+        /* Armo la grilla por areas */
+        "encabezado"
+        "contenido"
+        "pie"
+        ;
+        /* tamaño */
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 1fr;
+        /* espacios */
+        column-gap: 0px;
+        row-gap: 25px;
+        margin-bottom: 100px;
+    }
+    .indexImagenesProductos img{
+        transform: scale(0.8,0.8);
+    }
+    .linkWhatsapp{
+        display: none;
+    }
+    .textoVerMas{
+        display: inline;
+    }
+    .indexImagenesProductos__imgVerMas{
+        display: none;
+    }
+    .footer__label{
+        padding-right: 18%;
+    }
+    .acordeon{
+        width: 90%;
+    }
+}
+/* TABLET */
+@media (min-width: 600px) and (max-width: 1023px){
+    .bodyGrid {
+        display: grid;
+        grid-template-areas: 
+        /* Armo la grilla por areas */
+        "encabezado"
+        "contenido"
+        "pie"
+        ;
+        /* tamaño */
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 1fr;
+        /* espacios */
+        column-gap: 0px;
+        row-gap: 35px;
+        margin-bottom: 100px;
+    }
+    .linkWhatsapp{
+        display: none;
+    }
+    .textoVerMas{
+        display: inline;
+    }
+    .indexImagenesProductos__imgVerMas{
+        display: none;
+    }
+    .footer__label{
+        padding-right: 18%;
+    }
+    .acordeon{
+        width: 80%;
+    }
+}
+/* DESKTOP */
+@media (min-width: 1024px){
+    /* bloque de estilos para desktop*/
+
+    .bodyGrid {
+        display: grid;
+        grid-template-areas: 
+        /* Armo la grilla por areas */
+        "encabezado"
+        "contenido"
+        "pie"
+        ;
+        /* tamaño */
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto 1fr;
+        /* espacios */
+        column-gap: 0px;
+    }    
+    .footer__label{
+        padding-right: 40%;
+    }
+    .textoVerMas{
+        display: none;
+    }
+    .indexImagenesProductos__imgVerMas{
+        display: inline;
+    }
+    .acordeon{
+        width: 80%;
+    }
+    .divContenidoIndex .index-img {
+        width: 55%;
+        float: right;
+    }
+    .divContenidoIndex .index-text {
+        left: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+    }
+    .divContenidoIndex .index-text .index-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+    
+    .divContenidoIndex .index-iframe {
+        width: 55%;
+        height: 280px;
+        float: left;
+    }
+    .divContenidoIndex .index-text2 {
+        right: 0;
+        width: 60%;
+        margin-top: 3rem;
+        position: absolute;
+    }
+    .divContenidoIndex .index-text2 .index-button {
+        width: 100%;
+        right: 0;
+        position: absolute;
+        bottom: -2rem;
+    }
+}

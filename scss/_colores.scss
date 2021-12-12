@@ -1,0 +1,45 @@
+/*****************************************
+ESTILOS COLORES
+*****************************************/
+
+body{
+    background-image: linear-gradient(#97dfe2b8,#f1a5e1a0,rgba(247, 245, 186, 0.782));
+}
+
+.menuNuevo{
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 0.217),$rosado_logo);
+}
+
+footer {
+    background-image: linear-gradient(to left,white,$azul_logo);
+}
+
+.fotoWolfNosotros{
+    border-color: $amarillo_logo;
+}
+
+.botonFormulario{
+    background-image: linear-gradient($rosado_logo, white);
+}
+
+.labelPregunta{
+    background-image: linear-gradient(to right,$amarillo_logo,$azul_logo, white);
+    color: black;
+    margin-left: 5px;
+}
+
+h1 {
+    color: black;
+}
+
+.tituloAcordeon{
+    background-image: linear-gradient(to right,$amarillo_logo,$azul_logo, white);
+    color: black; 
+}
+
+.accordion-button:not(.collapsed){
+    color: black;
+}
+.divContenidoIndex div{ 
+    background-image: linear-gradient(to left, #97dfe2, #f1a5e1, rgb(247, 245, 186));
+}
