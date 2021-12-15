@@ -1,7 +1,7 @@
 {
   "name": "espaciodulcearte",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web de Espacio Dulce Arte, profesionales en elaboración y decoración de tortas y postres para todo tipo de eventos",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

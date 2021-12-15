@@ -43,15 +43,15 @@ ESTILOS DEL INDEX
 }
 .divContenidoIndex {
     position: relative;
+    img{
+        border-radius: 0.25rem !important;
+    }
+    div{
+        border-radius: 0.25rem !important;
+        padding: 1rem !important;
+    }
 }
 
-.divContenidoIndex img{
-    border-radius: 0.25rem !important;
-}
-.divContenidoIndex div{
-    border-radius: 0.25rem !important;
-    padding: 1rem !important;
-}
 .section-heading {
     text-transform: uppercase;
 }

@@ -3,42 +3,32 @@ ESTILOS TIPOGRAFÍAS
 *****************************************/
 
 .menuNuevo{
-    font-size: 1.2rem;
-    font-family: 'Rum Raisin', sans-serif;
+    @include fuente(1.2rem, $rum);
+}
+.footer__label{
+    @include fuente(0.9rem, $rum);
+    text-align: center;
 }
 
 h1 {
-    font-family: 'Englebert', sans-serif;
+    @include fuente(2rem, $englebert);
     text-decoration: underline overline;
-    font-size: 2rem;
     text-align: center;
 }
+.infoAcordeon{
+    @include fuente(1rem, $englebert);
+}
 
+.mb-3{
+    @include fuente(1.2rem, $advent);
+}
 .labelInformacion{
-    font-family: 'Advent Pro', sans-serif;
+    @include fuente(0.9rem, $advent);
     text-align: justify;
-    font-size: 0.9rem;
-}
-
-.footer__label{
-    font-family: 'Rum Raisin', sans-serif;
-    font-size: 0.9rem;
-    text-align: center;
-}
-.footer__label:hover{
-    font-size: 1.25rem;
-}
-.tituloInternoContenido{
-    color: black;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-align: center;
-    text-decoration: none;
-    letter-spacing: 2px;
 }
 
 .leerMas{
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 1rem;
+    @include fuente(1rem, $advent);
 }
 
 .parrafoIndex{
@@ -47,40 +37,43 @@ h1 {
 }
 
 .labelPregunta{
-    font-family: 'Advent Pro', sans-serif;
+    @include fuente(1rem, $advent);
     border-radius: 8px;
     text-align: center;
-    font-size: 1rem;
 }
 
 .parrafoNosotrosExt{
     text-align: justify;
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 1rem;
+    @include fuente(1rem, $advent);
 }
 
 .gridContacto__labelTitulos{
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 1rem;
+    @include fuente(1rem, $advent);
     text-align: right;
 }
 
 .botonFormulario{
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 1rem;
+    @include fuente(1rem, $advent);
     color: black;
 }
 
 .tituloAcordeon{
-    font-family: 'Advent Pro', sans-serif;
+    @include fuente(1.25rem, $advent);
+}
+
+.footer__label:hover{
     font-size: 1.25rem;
 }
 
-.infoAcordeon{
-    font-family: 'Englebert', sans-serif;
-    font-size: 1rem;
+.tituloInternoContenido{
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
-.mb-3{
-    font-family: 'Advent Pro', sans-serif;
-    font-size: 1.2rem;
+
+@mixin fuente($tamano_fuente, $tipografia) {
+    font-size: $tamano_fuente;
+    font-family: $tipografia;
 }
