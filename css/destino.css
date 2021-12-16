@@ -77,23 +77,64 @@ ESTILOS TIPOGRAFÍAS
 *****************************************/
 .menuNuevo {
   font-size: 1.2rem;
-  font-family: 'Rum Raisin', sans-serif; }
-
-h1 {
-  font-family: 'Englebert', sans-serif;
-  text-decoration: underline overline;
-  font-size: 2rem;
-  text-align: center; }
-
-.labelInformacion {
-  font-family: 'Advent Pro', sans-serif;
-  text-align: justify;
-  font-size: 0.9rem; }
+  font-family: "Rum Raisin", sans-serif; }
 
 .footer__label {
-  font-family: 'Rum Raisin', sans-serif;
   font-size: 0.9rem;
+  font-family: "Rum Raisin", sans-serif;
   text-align: center; }
+
+h1 {
+  font-size: 2rem;
+  font-family: "Englebert", sans-serif;
+  text-decoration: underline overline;
+  text-align: center; }
+
+.infoAcordeon {
+  font-size: 1rem;
+  font-family: "Englebert", sans-serif; }
+
+.mb-3 {
+  font-size: 1.2rem;
+  font-family: "Advent Pro", sans-serif; }
+
+.labelInformacion {
+  font-size: 0.9rem;
+  font-family: "Advent Pro", sans-serif;
+  text-align: justify; }
+
+.leerMas {
+  font-size: 1rem;
+  font-family: "Advent Pro", sans-serif; }
+
+.parrafoIndex {
+  text-align: justify;
+  font-family: 'Advent Pro', sans-serif; }
+
+.labelPregunta {
+  font-size: 1rem;
+  font-family: "Advent Pro", sans-serif;
+  border-radius: 8px;
+  text-align: center; }
+
+.parrafoNosotrosExt {
+  text-align: justify;
+  font-size: 1rem;
+  font-family: "Advent Pro", sans-serif; }
+
+.gridContacto__labelTitulos {
+  font-size: 1rem;
+  font-family: "Advent Pro", sans-serif;
+  text-align: right; }
+
+.botonFormulario {
+  font-size: 1rem;
+  font-family: "Advent Pro", sans-serif;
+  color: black; }
+
+.tituloAcordeon {
+  font-size: 1.25rem;
+  font-family: "Advent Pro", sans-serif; }
 
 .footer__label:hover {
   font-size: 1.25rem; }
@@ -104,47 +145,6 @@ h1 {
   text-align: center;
   text-decoration: none;
   letter-spacing: 2px; }
-
-.leerMas {
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 1rem; }
-
-.parrafoIndex {
-  text-align: justify;
-  font-family: 'Advent Pro', sans-serif; }
-
-.labelPregunta {
-  font-family: 'Advent Pro', sans-serif;
-  border-radius: 8px;
-  text-align: center;
-  font-size: 1rem; }
-
-.parrafoNosotrosExt {
-  text-align: justify;
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 1rem; }
-
-.gridContacto__labelTitulos {
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 1rem;
-  text-align: right; }
-
-.botonFormulario {
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 1rem;
-  color: black; }
-
-.tituloAcordeon {
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 1.25rem; }
-
-.infoAcordeon {
-  font-family: 'Englebert', sans-serif;
-  font-size: 1rem; }
-
-.mb-3 {
-  font-family: 'Advent Pro', sans-serif;
-  font-size: 1.2rem; }
 
 /*****************************************
 ESTILOS COLORES
