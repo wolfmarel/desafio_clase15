@@ -27,8 +27,11 @@ ESTILOS GENERALES
   margin-bottom: 15px; }
 
 .carrusel {
-  padding-left: 10%;
-  padding-right: 10%; }
+  padding-left: 0%;
+  padding-right: 0%; }
+
+.contenido404 {
+  height: 75vh; }
 
 .linkWhatsapp {
   width: 50px;
@@ -88,6 +91,11 @@ h1 {
   font-size: 2rem;
   font-family: "Englebert", sans-serif;
   text-decoration: underline overline;
+  text-align: center; }
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "Advent Pro", sans-serif;
   text-align: center; }
 
 .infoAcordeon {
@@ -272,9 +280,8 @@ ESTILOS DE NOSOTROS
   width: 100%; }
 
 .fotoWolfNosotros {
-  border-style: double groove;
-  border-width: 5px;
-  transform: scale(0.8, 0.6); }
+  width: 100%;
+  height: auto; }
 
 /*****************************************
 ESTILOS DE CONTACTO
